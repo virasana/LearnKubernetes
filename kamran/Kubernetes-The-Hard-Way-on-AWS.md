@@ -48,7 +48,7 @@ The /etc/hosts file I am using is:
 ```
 
 ** Note: ** When you edit the hosts file to all nodes, also use that time to disable SELINUX on all nodes, to save pain and grief later.
-Additionally (if you choose to use ubuntu) you may need to enable the following in /etc/nsswitch.conf, so as to make DNS work through the hosts file as well as the usual DNS:  
+Additionally (if you choose to use ubuntu, which admittedly is not the operating system we have chosen above) you may need to enable the following in /etc/nsswitch.conf, so as to make DNS work through the hosts file as well as the usual DNS:  
 
 `hosts:          files nisplus nis dns`
 
