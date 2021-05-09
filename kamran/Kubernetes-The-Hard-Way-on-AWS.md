@@ -48,7 +48,9 @@ The /etc/hosts file I am using is:
 ```
 
 ** Note: ** When you edit the hosts file to all nodes, also use that time to disable SELINUX on all nodes, to save pain and grief later.
+Additionally (if you choose to use ubuntu) you may need to enable the following in /etc/nsswitch.conf, so as to make DNS work through the hosts file as well as the usual DNS:  
 
+`hosts:          files nisplus nis dns`
 
 On AWS Firewall/Security group, I have allowed all traffic within this VPC from 10.0.0.0/16. Also all traffic is allowed from my IP.
 
