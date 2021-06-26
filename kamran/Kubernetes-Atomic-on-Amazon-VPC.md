@@ -53,7 +53,7 @@ Make sure you make the PEM file readable to only your user, like this:
 [kamran@kworkhorse kamran]$ 
 ```
 
-After the nodes becoe ready, you can manually assign them proper names, for better identification. Such as Kubernetes-Master , Kubernetes-Node-1 , etc. Remember, in our case we have one master and two worker nodes.
+After the nodes become ready, you can manually assign them proper names, for better identification. Such as Kubernetes-Master , Kubernetes-Node-1 , etc. Remember, in our case we have one master and two worker nodes.
 
 If you selected "No" to Auto Assign Public IPs either at the time of VPC creation or EC2 instances creation, then you should Allocate new public IPs and and Associate those public IPs to thesse instances.
 
