@@ -535,7 +535,7 @@ Each component is being run on the same machines for the following reasons:
 * Running multiple copies of each component is required for H/A
 * Running each component next to the API Server eases configuration.
 
-The following commands are to be repeated on all three controller managers:
+The following commands are to be repeated on both controller managers:
 Connect each controller manager using `ssh` command.
 
 
